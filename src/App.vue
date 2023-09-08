@@ -1,9 +1,11 @@
 <template>
-  <nav>
+  <!-- <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+    <router-link to="/ontlening">Ontlenen</router-link> |
+    <router-link to="/terug-brengen">Terug Brengen</router-link>
+  </nav> -->
+  <router-view />
+  
 </template>
 
 <style>
@@ -22,9 +24,17 @@ nav {
 nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
+
+
+h1 {
+  color: #2c3e50;
+}
+
 </style>
